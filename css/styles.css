@@ -1,46 +1,92 @@
-/* Gerais */ 
-body
-{
-font-family: 'Roboto', sans-serif;
+/* Gerais */
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-.row{
-    margin: 0;
+.row {
+  margin: 0;
 }
 
-.container{
-    padding: 70px 0;
+.container {
+  padding: 70px 0;
 }
 
-p, li{
-    color: #444;
-    font-size: 14px;
+p,
+li {
+  color: #444;
+  font-size: 14px;
 }
 
 /* barra de navegação */
-header, .navbar {
-    background-color: #353D41;
+header,
+.navbar {
+  background-color: #353d41;
 }
 #nav.container {
-    padding-top: 0;
-    padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 #logo {
-    width: 75px;
+  width: 75px;
 }
 
 .navbar-brand {
-    padding: 0;
-    color: #fff;
+  padding: 0;
+  color: #fff;
 }
 .navbar-brand:hover {
-    color: #fff;
+  color: #fff;
 }
 
 #navbar-links a {
-    color: #fff;
+  color: #fff;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 1rem .8rem;
+  padding: 1rem 0.8rem;
+}
+
+/*slider*/
+
+.container-fluid {
+  padding: 0;
+}
+
+#mainslider .carousel-caption {
+  top: 15%;
+}
+
+#mainslider .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#mainslider .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #fff;
+}
+
+.main-btn {
+  background-color: #65daf9;
+  color: #fff;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: 0.5s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  border-color: #65daf9;
+}
+
+.carousel-indicators .active {
+  background-color: #65daf9;
 }
