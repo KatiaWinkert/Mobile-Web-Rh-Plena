@@ -20,7 +20,7 @@ li {
 /* barra de navegação */
 header,
 .navbar {
-  background-color: #353d41;
+  background-color: #0d1029;
 }
 #nav.container {
   padding-top: 0;
@@ -109,7 +109,7 @@ header,
   border-top: 2px solid #333;
   width: 15%;
   position: absolute;
-  top: 60px;
+  top: 760px;
   left: 42.5%;
 }
 
