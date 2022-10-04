@@ -136,13 +136,14 @@ header,
 
 /*serviços*/
 
-.services-box{
+.services-box {
   text-align: center;
   margin-bottom: 50px;
 }
 
-.services-box i, .service-box h4{
-  transition: .5s;
+.services-box i,
+.service-box h4 {
+  transition: 0.5s;
 }
 
 .services-box i {
@@ -151,10 +152,28 @@ header,
   color: #444;
 }
 
-.services-box h4{
+.services-box h4 {
   font-size: 24px;
   margin-bottom: 10px;
 }
-.services-box:hover > i, .services-box:hover > h4{
-color: #65daf9;
+.services-box:hover > i,
+.services-box:hover > h4 {
+  color: #65daf9;
+}
+
+/* Dados */
+.circle-box div {
+  padding: 0 40px;
+}
+
+.progressbar-text {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#data-area p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
 }
