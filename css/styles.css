@@ -261,7 +261,9 @@ header,
   padding: 0 20px;
 }
 
-#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+#portfolio-area .filter-btn.active,
+#portfolio-area .filter-btn:hover {
   color: #fff;
   background-color: #65daf9;
   border-color: #65daf9;
+}
