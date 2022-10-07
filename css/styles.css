@@ -186,11 +186,12 @@ header,
 
 /* empresas saiba mais  */
 
-#apply-area{
+#apply-area {
   height: 500px;
 }
 
-#apply-area .container-fluid, #apply-area .row {
+#apply-area .container-fluid,
+#apply-area .row {
   height: 100%;
 }
 
@@ -199,13 +200,14 @@ header,
   padding: 70px 50px;
 }
 
-#company-img{
-  background-image: url("../img/empresa.jpg");
+#company-img {
+  background-image: url('../img/empresa.jpg');
   background-size: cover;
   height: 100%;
 }
 
-#pattern-img h4, #pattern-img p {
+#pattern-img h4,
+#pattern-img p {
   color: #fff;
 }
 
@@ -215,11 +217,11 @@ header,
   text-transform: uppercase;
 }
 
-#pattern-img p{
-  margin-bottom: 20px
+#pattern-img p {
+  margin-bottom: 20px;
 }
 
-#apply-btn{
+#apply-btn {
   display: block;
   height: auto;
   width: 180px;
@@ -234,3 +236,32 @@ header,
   border-color: #65daf9;
   background-color: #65daf9;
 }
+
+/*Portfolio*/
+
+.project-box {
+  margin-bottom: 3;
+}
+
+#filter-btn-box {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#portfolio-area .filter-btn {
+  color: #444;
+  border: 3px solid #444;
+  background-color: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+  color: #fff;
+  background-color: #65daf9;
+  border-color: #65daf9;
