@@ -87,10 +87,16 @@ $(document).ready(function () {
       stop = 1
     }
   })
-  //Parallax 
-setTimeout(function(){
+  //Parallax
+  setTimeout(function () {
+    $('#data-area').parallax({ imageSrc: 'img/cidadeparallax.png' })
+    $('#apply-area').parallax({ imageSrc: 'img/pattern.png' })
+  }, 250)
 
-$('#data-area').parallax({i.png' })
-}, 250)
+  //filtro do portfolio //
 
+  $('.filter-btn').on('click', function () {
+    let type = $(this).attr('id')
+    let boxes = $('.project-box')
+  })
 })
