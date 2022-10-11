@@ -1,5 +1,5 @@
 # Mobile Web Rh Plena
- Web site Rh Plena ( portifolio )
+ Web site Rh Plena ( portfólio )
 
 Projeto feito para uma empresa fictícia Plena Recursos Humanos, com o intuito de adquirir experiencia para minha carreira de desenvolvedora para futuros trabalhos e enriquecer meu portfólio.
 Nesse trabalho eu utilizo as ferramentas HTML, CSS, Javascript seguido com Bootstrap, JQuery. Será utilizado uma API fake também. 
