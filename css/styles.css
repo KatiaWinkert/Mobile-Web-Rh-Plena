@@ -271,7 +271,7 @@ header,
 /*news letter*/
 
 #news-area {
-  text-align:  center;
+  text-align: center;
   background-color: rgb(228, 228, 248);
 }
 
@@ -302,19 +302,23 @@ header,
   padding: 0 30px;
   margin-left: -130px;
   position: absolute;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 #news-btn:hover {
   background-color: #fff;
   color: #65daf9;
-} 
+}
 
 /*Call to action*/
 
 #call-area {
   background-color: #65daf9;
   text-transform: uppercase;
+}
+
+#call-area .container {
+  padding: 40px 100px;
 }
 
 #call-area .row {
@@ -332,4 +336,14 @@ header,
   display: inline;
   height: 60px;
   line-height: 60px;
+}
+
+#call-area #call-btn {
+  background-color: #fff;
+  color: #65daf9;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 30px;
+  width: auto;
+  letter-spacing: 2px;
 }
