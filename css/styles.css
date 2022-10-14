@@ -422,3 +422,32 @@ header,
   text-decoration: none;
   color: #3ec1d5;
 }
+
+/*responsive*/
+@media(max-widht:768px){
+
+   /*geral*/
+   .container{
+    padding: 20px 0;
+   }
+
+   /*Slider*/
+   #mainslider .carousel-inner, #mainslider .carousel-item{
+    height: auto;
+   }
+
+   #mainslider .carousel-caption h2 {
+    font-size: 28px;
+   }
+
+   #mainslider .carousel-caption p {
+    font-size: 18px;
+    margin-bottom: 40px;
+   }
+
+   .carousel-caption{
+    left: 10%;
+    right: 10%;
+   }
+
+}
