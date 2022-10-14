@@ -354,13 +354,13 @@ header,
   text-align: center;
 }
 
-.contact-box{
+.contact-box {
   padding-bottom: 50px;
   margin-bottom: 50px;
   border-bottom: 1px solid #3ec1d5;
 }
 
-.contact-box i{
+.contact-box i {
   color: #444;
   border: solid 1px #444;
   border-radius: 50%;
@@ -384,12 +384,14 @@ header,
   font-size: 22px;
 }
 
-#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+#contact-form input[type='text'],
+#contact-form input[type='email'],
+#contact-form textarea {
   margin-bottom: 15px;
   border-radius: 0;
 }
 
-#contact-form .main-btn{
+#contact-form .main-btn {
   width: 120px;
   height: 50px;
 }
@@ -404,7 +406,7 @@ header,
   color: #f1f1f1;
 }
 
-#copy-area .container{
+#copy-area .container {
   padding: 10px 0;
   text-align: center;
 }
@@ -424,30 +426,31 @@ header,
 }
 
 /*responsive*/
-@media(max-widht:768px){
+@media(max-widht: 768px){
+  /*geral*/
 
-   /*geral*/
-   .container{
+  .container {
     padding: 20px 0;
-   }
+  }
 
-   /*Slider*/
-   #mainslider .carousel-inner, #mainslider .carousel-item{
+  /*Slider*/
+  #mainslider .carousel-inner,
+  #mainslider .carousel-item {
     height: auto;
-   }
+  }
 
-   #mainslider .carousel-caption h2 {
-    font-size: 28px;
-   }
+  #mainslider .carousel-caption h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
 
-   #mainslider .carousel-caption p {
+  #mainslider .carousel-caption p {
     font-size: 18px;
     margin-bottom: 40px;
-   }
+  }
 
-   .carousel-caption{
+  .carousel-caption {
     left: 10%;
     right: 10%;
-   }
-
+  }
 }
