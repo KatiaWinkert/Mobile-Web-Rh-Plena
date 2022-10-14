@@ -441,16 +441,11 @@ header,
 
   #mainslider .carousel-caption h2 {
   font-size: 28px;
-  margin-bottom: 15px;
+  
 }
 
   #mainslider .carousel-caption p {
     font-size: 18px;
     margin-bottom: 40px;
-  }
-
-  .carousel-caption {
-    left: 10%;
-    right: 10%;
   }
 }
