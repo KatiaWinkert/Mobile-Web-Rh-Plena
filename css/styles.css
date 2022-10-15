@@ -104,14 +104,6 @@ header,
   text-align: center;
 }
 
-.main-title::after {
-  content: '';
-  border-top: 2px solid #333;
-  width: 15%;
-  position: absolute;
-  top: 760px;
-  left: 42.5%;
-}
 
 .about-title {
   font-size: 19px;
@@ -511,4 +503,50 @@ header,
   .contact-title {
     font-size: 12px;
   }
+}
+
+@media (max-width: 425px) {
+
+    /*slider*/
+    #mainslider {
+      margin-top: 50px;
+    }
+
+      #mainslider .carousel-caption {
+        top: 5%;
+      }
+
+      #mainslider .carousel-caption h2 {
+        font-size: 18px;
+        margin-bottom: 40px;
+      }
+
+      #mainslider .carousel-caption p {
+     display: none;
+      }
+
+      .carousel-caption .main-btn{
+        font-size: 14px;
+      }
+
+      /*about*/
+      .main-title {
+        font-size: 30px;
+      }
+
+      #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+
+      /*data*/
+      .circle-box{
+        width: 50%;
+      }
+
+      /*team*/
+      #team-area .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+      }
 }
