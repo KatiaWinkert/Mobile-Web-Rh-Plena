@@ -468,7 +468,7 @@ header,
   }
 
   /*team*/
-  .card-title{
+  .card-title {
     font-size: 14px;
   }
 
@@ -477,17 +477,38 @@ header,
   }
 
   /* apply */
-  #apply-area .apply-box{
+  #apply-area .apply-box {
     padding: 35px 5px;
   }
 
+  #portfolio-area .project-box {
+    padding: 10px;
+  }
+
   /* news */
-#news-area p {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
+  #news-area p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  #email-input {
+    width: 70%;
+  }
 
+  #call-area {
+    margin-top: 30px;
+  }
 
+  #call-area .container {
+    padding: 30px;
+  }
+
+  #call-area p,
+  #call-area #call-btn {
+    font-size: 16px;
+  }
+  .contact-title {
+    font-size: 12px;
+  }
 }
