@@ -104,7 +104,6 @@ header,
   text-align: center;
 }
 
-
 .about-title {
   font-size: 19px;
   color: #444;
@@ -506,47 +505,57 @@ header,
 }
 
 @media (max-width: 425px) {
+  /*slider*/
+  #mainslider {
+    margin-top: 50px;
+  }
 
-    /*slider*/
-    #mainslider {
-      margin-top: 50px;
-    }
+  #mainslider .carousel-caption {
+    top: 5%;
+  }
 
-      #mainslider .carousel-caption {
-        top: 5%;
-      }
+  #mainslider .carousel-caption h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
 
-      #mainslider .carousel-caption h2 {
-        font-size: 18px;
-        margin-bottom: 40px;
-      }
+  #mainslider .carousel-caption p {
+    display: none;
+  }
 
-      #mainslider .carousel-caption p {
-     display: none;
-      }
+  .carousel-caption .main-btn {
+    font-size: 14px;
+  }
 
-      .carousel-caption .main-btn{
-        font-size: 14px;
-      }
+  /*about*/
+  .main-title {
+    font-size: 30px;
+  }
 
-      /*about*/
-      .main-title {
-        font-size: 30px;
-      }
+  #about-area img {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
 
-      #about-area img {
-        margin-top: 0;
-        margin-bottom: 30px;
-      }
+  /*data*/
+  .circle-box {
+    width: 50%;
+  }
 
-      /*data*/
-      .circle-box{
-        width: 50%;
-      }
+  /*team*/
+  #team-area .col-md-3 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
 
-      /*team*/
-      #team-area .col-md-3 {
-        width: 50%;
-        margin-bottom: 30px;
-      }
+  /*aplly*/
+
+  #apply-area {
+    height: auto;
+  }
+
+  #company-img {
+    display: none;
+  }
+
 }
